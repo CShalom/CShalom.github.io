@@ -1,0 +1,99 @@
+body {
+    background-image: url(https://media.istockphoto.com/id/534161271/photo/white-chalk-on-black-paper-background.jpg?s=612x612&w=is&k=20&c=6k83teC03vqN-cnS35D0Lsrffz7b0nTs5iwIc5gJKmM=);
+}
+
+
+
+nav {
+    background-color: black;
+    height: 3em;
+    padding-top: 0;
+    width: 80em;
+    z-index: 2;
+}
+
+
+nav ul li {
+    display: inline-block;
+    font-family: 'Calibri', sans-serif;
+    font-weight: bold;
+    max-width: 15%;
+    padding: 1em;    
+}
+
+
+
+nav ul li a {
+    color:white;
+    text-decoration: none;
+    padding: 2em;
+}
+
+
+
+table {
+    position: relative;
+    top: 3em;
+}
+
+
+
+table, th, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+    width: 62.5em;
+    background-color: green;
+    border-radius: 2em;
+    text-align: center;
+    font-family: 'Kalam', cursive;
+    z-index: 1;
+}
+
+
+thead {
+    font-weight: bold;
+    font-size: 30px;
+    color:white;
+}
+
+
+
+td {
+    color: white;
+}
+
+
+
+.daysHours {
+    font-weight: bold;
+    color: yellow;
+}
+
+
+
+#postit {
+    max-width: 350px;
+    max-height: 400px;
+    padding: 0;
+    position: relative;
+    float: right;
+    bottom: 29em;
+    margin-right: -65px;
+    margin-top: -2em;
+    border-radius: 15em;  
+    /*opacity: 0.7;*/
+}
+
+
+p {
+    font-family: 'Gloria Hallelujah', cursive;
+    position: relative;
+    margin-left: 64em;
+    margin-bottom: 58em;
+    top: -47em;  
+    width: 13em;
+    height: 1em;
+}
+
+
+    

@@ -1,0 +1,496 @@
+body {
+  background-color: grey;
+}
+
+
+nav ul li {
+  position: relative;
+  display: inline-block;
+  margin-top:6em;
+  padding: 0.3em;
+}
+
+
+nav ul li a {
+  text-decoration: none;
+  color:white;
+  background-color: black;
+  width: 28%;
+  height: 8%;
+  padding: 1em;
+}
+
+
+.triangleup {
+  height: 0;
+  width: 0;
+  border-left: 190px solid transparent;
+  border-right: 190px solid transparent;
+  border-bottom: 250px solid red;  
+  position:relative;  
+  margin-top: 5em;		     
+}
+
+
+.child1 {
+  height: 60px;
+  width: 60px;
+  background-color: #555;
+  border-radius: 50%;
+  position: relative;
+  margin-top: -4em;
+  margin-left: 2em;
+  animation-name: child1moving;
+  animation: child1moving 30s infinite;
+}
+
+
+@keyframes child1moving {
+    0%   {top: 0px;}
+    25%  {top: -70px;}
+    75%  {top: 50px;}
+    100% {top: 100px;}
+}
+
+
+@-moz-keyframes child1moving {
+    0%   {top: 0px;}
+    25%  {top: -70px;}
+    75%  {top: 50px;}
+    100% {top: 100px;}
+}
+
+
+@-webkit-keyframes child1moving {
+    0%   {top: 0px;}
+    25%  {top: -70px;}
+    75%  {top: 50px;}
+    100% {top: 100px;}
+}
+
+
+@-o-keyframes child1moving {
+    0%   {top: 0px;}
+    25%  {top: -70px;}
+    75%  {top: 50px;}
+    100% {top: 100px;}
+}
+
+
+@-ms-keyframes child1moving {
+    0%   {top: 0px;}
+    25%  {top: -70px;}
+    75%  {top: 50px;}
+    100% {top: 100px;}
+}
+
+
+.parallelogram {
+  width: 620px;
+  height: 250px;
+	transform: skew(37deg);
+	background: blue;
+  position: relative;
+  float: right;
+  margin-top: -15.6em;
+  margin-right: 20em;
+}
+
+
+.child2 {
+  height: 50px;
+  width: 100px;
+  background-color: #555;
+  border-radius: 50%;
+  position: relative;
+  animation-name: child2moving;
+  animation: child2moving 40s infinite;    
+}
+
+
+@keyframes child2moving {
+  0%   {top: 0px; background: red; width: 100px;}
+  100% {top: 200px; background: yellow; width: 600px;}
+}
+
+
+@-moz-keyframes child2moving {
+    0%   {top: 0px; background: red; width: 100px;}
+  100% {top: 200px; background: yellow; width: 600px;}
+}
+
+
+@-webkit-keyframes child2moving {
+    0%   {top: 0px; background: red; width: 100px;}
+  100% {top: 200px; background: yellow; width: 600px;}
+}
+
+
+@-o-keyframes child2moving {
+    0%   {top: 0px; background: red; width: 100px;}
+  100% {top: 200px; background: yellow; width: 600px;}
+}
+
+
+@-ms-keyframes child2moving {
+    0%   {top: 0px; background: red; width: 100px;}
+  100% {top: 200px; background: yellow; width: 600px;}
+}
+
+
+.triangledown {
+  height: 0;
+  width: 0;
+  border-left: 205px solid transparent;
+  border-right: 205px solid transparent;
+  border-top: 250px solid white;
+  float: right;
+  margin-top:-15.6em;
+  animation-name: colorchange; /*This seems to make the triangle grow and shrink off the screen*/
+  animation: colorchange 8s infinite;
+}
+
+
+@keyframes colorchange {
+    0%   {border-top: red;}
+}
+
+
+@-moz-keyframes colorchange {
+    0%   {border-top: red;}
+}
+
+
+@-webkit-keyframes colorchange {
+    0%   {border-top: red;}
+}
+
+
+@-o-keyframes colorchange {
+    0%   {border-top: red;}
+}
+
+
+@-ms-keyframes colorchange {
+    0%   {border-top: red;}
+}
+
+
+.child3 {
+  border-bottom: 35px solid #555;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	height: 0;
+  width: 45px;
+  margin-top:-7em;
+  margin-left: -2em;
+  position: relative;
+  animation-name: child3moving;
+  animation: child3moving 8s infinite;
+}
+
+
+@keyframes child3moving {
+    0%   {top: 0px;}
+    25%  {top: 30px;}
+    75%  {top: 15px;}
+    100% {top: 15px;}
+}
+
+
+@-moz-keyframes child3moving {
+    0%   {top: 0px;}
+    25%  {top: 30px;}
+    75%  {top: 15px;}
+    100% {top: 15px;}
+}
+
+
+@-webkit-keyframes child3moving {
+    0%   {top: 0px;}
+    25%  {top: 30px;}
+    75%  {top: 15px;}
+    100% {top: 15px;}
+}
+
+
+@-o-keyframes child3moving {
+    0%   {top: 0px;}
+    25%  {top: 30px;}
+    75%  {top: 15px;}
+    100% {top: 15px;}
+}
+
+
+@-ms-keyframes child3moving {
+    0%   {top: 0px;}
+    25%  {top: 30px;}
+    75%  {top: 15px;}
+    100% {top: 15px;}
+}
+
+
+.rectangle {
+    height: 50px;
+    width: 555px;
+    background-color: cyan;
+    position: relative;
+    margin-top: 3em;
+    padding: 0;
+    justify-content: center;
+}
+
+
+.child4 {
+    height: 20px;
+    width:20px;
+    background-color: #555;
+    border-top: 0.5em;
+    position: relative;
+    animation-name: child4moving;
+    animation: child4moving 5s infinite;
+}
+    
+
+@keyframes child4moving {
+    0%   {left: 0px; top: 0px;}
+    25%  {left: 536px; top: 0px;}
+    50%  {left:30px; top: 30px;}
+    75%  {left:0px; top:30px;}
+    100% {left:0px; top: 0px;}
+}
+
+
+@-moz-keyframes child4moving {
+    0%   {left: 0px; top: 0px;}
+    25%  {left: 536px; top: 0px;}
+    50%  {left:30px; top: 30px;}
+    75%  {left:0px; top:30px;}
+    100% {left:0px; top: 0px;}
+}
+
+
+@-webkit-keyframes child4moving {
+    0%   {left: 0px; top: 0px;}
+    25%  {left: 536px; top: 0px;}
+    50%  {left:30px; top: 30px;}
+    75%  {left:0px; top:30px;}
+    100% {left:0px; top: 0px;}
+}
+
+
+@-o-keyframes child4moving {
+    0%   {left: 0px; top: 0px;}
+    25%  {left: 536px; top: 0px;}
+    50%  {left:30px; top: 30px;}
+    75%  {left:0px; top:30px;}
+    100% {left:0px; top: 0px;}
+}
+
+
+@-ms-keyframes child4moving {
+    0%   {left: 0px; top: 0px;}
+    25%  {left: 536px; top: 0px;}
+    50%  {left:30px; top: 30px;}
+    75%  {left:0px; top:30px;}
+    100% {left:0px; top: 0px;}
+}
+
+
+.trapezoid {
+  border-bottom: 190px solid lightgrey;
+	border-left: 55px solid transparent;
+	border-right: 55px solid transparent;
+	height: 0;
+	width: 628px;
+  position: relative;
+  margin-top: 3em;
+  margin-left: 0.2em;
+  padding-left:0;
+}
+
+
+.child5 {
+  height: 50px;
+  width: 100px;
+  margin-left: 34em;
+  background-color: purple;
+  transform: rotate(90deg);
+  position: relative;
+  animation-name: child5moving;
+  animation: child5moving 10s infinite;
+}
+
+
+@keyframes child5moving {
+    0%   {top: 0px;}
+    25%  {top: 200px;}
+    75%  {top: 50px;}
+    100% {top: 100px;}
+}
+
+
+@-moz-keyframes child5moving {
+    0%   {top: 0px;}
+    25%  {top: 100px;}
+    75%  {top: 25px;}
+    100% {top: 50px;}
+}
+
+
+@-webkit-keyframes child5moving {
+    0%   {top: 0px;}
+    25%  {top: 100px;}
+    75%  {top: 25px;}
+    100% {top: 50px;}
+}
+
+
+@-o-keyframes child5moving {
+    0%   {top: 0px;}
+    25%  {top: 100px;}
+    75%  {top: 25px;}
+    100% {top: 50px;}
+}
+
+
+@-ms-keyframes child5moving {
+    0%   {top: 0px;}
+    25%  {top: 100px;}
+    75%  {top: 25px;}
+    100% {top: 50px;}
+}
+
+
+.trianglecentre {
+  height: 0;
+  width: 0;
+  border-left: 185px solid transparent;
+  border-right: 185px solid transparent;
+  border-top: 230px solid yellowgreen;
+  position: relative;
+  margin-top: -18em;
+  margin-left: 40em;
+}
+
+
+.child6 {
+  width: 0;
+	height: 0;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-top: 50px solid #555;
+  margin-top: -3em;
+  position: relative;
+  animation-name: child6moving;
+  animation: child6moving 2s infinite;
+}
+
+
+@keyframes child6moving {
+    0%   {top: 0px;}
+    25%  {top: -10px;}
+    75%  {top: -105px;}
+    100% {top: 40px;}
+}
+
+
+@-moz-keyframes child6moving {
+    0%   {top: 0px;}
+    25%  {top: -10px;}
+    75%  {top: -105px;}
+    100% {top: 40px;}
+}
+
+
+@-webkit-keyframes child6moving {
+    0%   {top: 0px;}
+    25%  {top: -10px;}
+    75%  {top: -105px;}
+    100% {top: 40px;}
+}
+
+
+@-o-keyframes child6moving {
+    0%   {top: 0px;}
+    25%  {top: -10px;}
+    75%  {top: -105px;}
+    100% {top: 40px;}
+}
+
+  
+@-ms-keyframes child6moving {
+    0%   {top: 0px;}
+    25%  {top: -10px;}
+    75%  {top: -105px;}
+    100% {top: 40px;}
+}
+
+
+.triangleright {
+  width: 0;
+	height: 0;
+	border-top: 551px solid transparent;
+	border-right: 428px solid yellow;
+	border-bottom: 1.8px solid transparent;
+  float: right;
+  margin-top: -30.8em;
+  padding: 0;
+}
+
+
+.child7 {
+  width: 100px;
+	height: 50px;
+  transform: skew(20deg);
+	background: #555;
+  margin-top: -4em;
+  margin-left: 10em;
+  animation-name: child7growing;
+  animation: child7growing 3s infinite;
+}
+
+
+@keyframes child7growing {
+    0%   {top: 0px; background: red; width: 100px;}
+    25%  {top: 0px; background: green; width: 150;}
+    50%  {top: 0px; background: red; width: 200;}
+    75%  {top: 0px; background: green; width: 225;}
+    100% {top: 0px; background: yellow; width: 250px;}
+}
+
+
+@-moz-keyframes child7growing {
+    0%   {top: 0px; background: red; width: 100px;}
+    25%  {top: 0px; background: green; width: 150;}
+    50%  {top: 0px; background: red; width: 200;}
+    75%  {top: 0px; background: green; width: 225;}
+    100% {top: 0px; background: yellow; width: 250px;}
+}
+
+
+@-webkit-keyframes child7growing {
+    0%   {top: 0px; background: red; width: 100px;}
+    25%  {top: 0px; background: green; width: 150;}
+    50%  {top: 0px; background: red; width: 200;}
+    75%  {top: 0px; background: green; width: 225;}
+    100% {top: 0px; background: yellow; width: 250px;}
+}
+
+
+@-o-keyframes child7growing {
+    0%   {top: 0px; background: red; width: 100px;}
+    25%  {top: 0px; background: green; width: 150;}
+    50%  {top: 0px; background: red; width: 200;}
+    75%  {top: 0px; background: green; width: 225;}
+    100% {top: 0px; background: yellow; width: 250px;}
+}
+
+
+@-ms-keyframes child7growing {
+    0%   {top: 0px; background: red; width: 100px;}
+    25%  {top: 0px; background: green; width: 150;}
+    50%  {top: 0px; background: red; width: 200;}
+    75%  {top: 0px; background: green; width: 225;}
+    100% {top: 0px; background: yellow; width: 250px;}
+}

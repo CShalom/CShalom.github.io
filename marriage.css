@@ -1,0 +1,159 @@
+body {
+    background-image: url(https://cdn.pixabay.com/photo/2019/01/26/11/56/flowers-3956074_1280.jpg);
+}
+
+
+#headingTitle {
+    font-family: calibri, "sans-serif" ;
+    font-weight: bold, 400;
+    margin-left: 07em;
+    margin-top: -1.5em;
+    color: darkblue;
+    size: 40em;   
+    /*top: -1em;*/
+    position: relative;  
+    text-align: center;  
+}
+
+
+
+nav ul li {
+    display: inline-block;
+    margin-left: 5.3em; 
+    height: 2em; 
+    width: 11%;
+    background-color: silver;
+    border-radius: 0.5em;
+    padding: 0.1em;
+    text-align: center;
+}
+
+
+
+nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: darkblue;
+    font-family: calibri, "sans serif";
+}
+
+
+
+strong {
+    font-size: 50 em;
+}
+
+
+span {
+    font-style: italic;
+}
+
+#para1 {
+    margin-left: 20em;
+}
+
+
+#para2 {
+    margin-left: 18em;
+}
+
+#para3 {
+    margin-left: 16em;
+}
+
+#para4 {
+    margin-left: 15.5em;
+}
+
+#para5 {
+    margin-left: 14em;
+}
+
+#para6 {
+    margin-left: 13em;
+}
+
+#para7, #para8, #para9, #para10, #para11, #para12, #para13, #para14, #para15, #para16, #para17 {
+    margin-left: 15em;
+}
+
+
+
+.relatedArticles {
+    width: 650px;
+    color: black;
+    position: relative;
+    float:right;
+    top: 6em;
+}
+
+
+
+ul {
+    font-family: 'Courgette', cursive;
+    list-style-type: none;
+    padding: 1em;
+}
+
+
+
+
+#slideshow {
+    width: 450px;
+    height: 350px;
+    border-radius:2em;
+    float: left;
+    position: relative;
+    margin-left: 4em;
+    margin-bottom: 2em;
+    margin-top: 0.5em;
+}
+
+
+
+#marriageBorder1 {
+    width: 90px;
+    height:90px;
+    border-radius: 32em;
+    position: relative;
+    bottom: 5.7em;
+    /*opacity: 0.5;*/
+}
+
+
+
+#marriageBorder2 {
+    width: 90px;
+    height:90px;
+    border-radius: 32em;
+    float: right;
+    /*opacity: 0.5;*/
+    top: -11.5em;
+    position: relative;
+    
+}
+
+/*Finally I only kept the 2 marriage borders at the top of the pageas as the bottom ones make the page background spills over*/
+
+#marriageBorder3 {
+    width: 150px;
+    height: 150px;
+    border-radius: 32em;
+    /*opacity: 0.7;*/
+    vertical-align: text-bottom;
+    bottom: 10em;
+    position: relative;
+}
+
+
+
+#marriageBorder4 {
+    width: 150px;
+    height:150px;
+    border-radius: 32em;
+    float: right;
+    /*opacity: 0.5;*/
+    bottom: 19em;
+    position: relative;
+}
+

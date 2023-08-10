@@ -1,0 +1,256 @@
+body { 
+    background-color: white;
+    animation-name: colorChange;
+    animation-duration: 35s infinite;
+}
+
+
+@keyframes colorChange {
+    0%   {background-color: white;}
+    25%  {background-color: lightblue;}
+    50%  {background-color: blue;}
+    100% {background-color: darkblue;}
+}
+
+
+nav {
+    margin-top: -41em;
+    margin-left: 4em;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    font-family: 'Slackside One', cursive;  
+}
+
+nav ul li {
+    list-style-type: none;
+}
+
+
+nav ul li a:hover {
+    color: darkblue;
+    background-color: white;
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    background-color: darkblue;
+}
+
+
+.container1 {
+    color: white;
+    margin-left: 25em;
+    overflow: hidden;
+    animation: child1 linear 9s infinite;
+}
+
+
+@keyframes child1 {
+    from { -moz-transform: translateY(-100%); }
+    to { -moz-transform: translateY(100%); }
+}
+
+@-webkit-keyframes child1 { 
+    from { -moz-transform: translateY(-100%); }
+    to { -moz-transform: translateY(100%); }
+}
+
+
+
+
+.container2 {
+    color: white;
+    position: relative;
+    margin-left: 30em;
+    margin-top: -38em;
+    overflow: hidden;
+    animation: child2 linear 10s infinite;
+}
+
+
+@keyframes child2 {
+    from { -moz-transform: translateY(-100%); }
+    to { -moz-transform: translateY(100%); }
+}
+
+@-webkit-keyframes child2 { 
+    from { -moz-transform: translateY(-100%); }
+    to { -moz-transform: translateY(100%); }
+}
+
+
+
+.container3 {
+    font-style: oblique;
+    margin-left: 33em;
+    margin-top: -44em;
+    overflow: hidden;
+    animation: child3 linear 15s infinite;
+}
+
+
+@keyframes child3 {
+    from { -moz-transform: translateY(-100%); }
+    to { -moz-transform: translateY(100%); }
+}
+
+@-webkit-keyframes child3 { 
+    from { -moz-transform: translateY(-100%); }
+    to { -moz-transform: translateY(100%); }
+}
+
+
+
+.container4 {
+    margin-left: 36em;
+    margin-top: -30em;
+    overflow: hidden;
+    animation: child4 linear 13s infinite;
+}
+
+
+@keyframes child4 {
+    from { -moz-transform: translateY(-100%); }
+    to { -moz-transform: translateY(100%); }
+}
+
+@-webkit-keyframes child4 { 
+    from { -moz-transform: translateY(-100%); }
+    to { -moz-transform: translateY(100%); }
+}
+
+
+
+.container5 {
+    margin-left: 40em;
+    margin-top: -43em;
+    overflow: hidden;
+    animation: child5 linear 17s infinite;
+}
+
+
+@keyframes child5 {
+    from { -moz-transform: translateY(-100%); }
+    to { -moz-transform: translateY(100%); }
+}
+
+@-webkit-keyframes child5 { 
+    from { -moz-transform: translateY(-100%); }
+    to { -moz-transform: translateY(100%); }
+}
+
+
+
+
+.container6 {
+    color: lightblue;
+    margin-left: 43em;
+    margin-top: -49em;
+    text-transform: uppercase;
+    overflow: hidden;
+    animation: child6 linear 19s infinite;
+}
+
+
+@keyframes child6 {
+    from { -moz-transform: translateY(-100%); }
+    to { -moz-transform: translateY(100%); }
+}
+
+@-webkit-keyframes child6 { 
+    from { -moz-transform: translateY(-100%); }
+    to { -moz-transform: translateY(100%); }
+}
+
+
+
+
+.container7 {
+    text-transform: lowercase;
+    margin-left: 45em;
+    margin-top: -48em;
+    overflow: hidden;
+    animation: child7 linear 11s infinite;
+}
+
+
+@keyframes child7 {
+    from { -moz-transform: translateY(-100%); }
+    to { -moz-transform: translateY(100%); }
+}
+
+@-webkit-keyframes child7 { 
+    from { -moz-transform: translateY(-100%); }
+    to { -moz-transform: translateY(100%); }
+}
+
+
+
+
+.container8 {
+    font-style: italic;
+    margin-left: 48em;
+    margin-top: -36em;
+    overflow: hidden;
+    animation: child8 linear 20s infinite;
+}
+
+
+@keyframes child8 {
+    from { -moz-transform: translateY(-100%); }
+    to { -moz-transform: translateY(100%); }
+}
+
+
+@-webkit-keyframes child8 { 
+    from { -moz-transform: translateY(-100%); }
+    to { -moz-transform: translateY(100%); }
+}
+
+
+
+.container9 {
+    color: cyan;
+    margin-left: 52em;
+    margin-top: -27em;
+    overflow: hidden;
+    animation: child9 linear 21s infinite;
+}
+
+
+@keyframes child9 {
+    from { -moz-transform: translateY(-100%); }
+    to { -moz-transform: translateY(100%); }
+}
+
+@-webkit-keyframes child9 { 
+    from { -moz-transform: translateY(-100%); }
+    to { -moz-transform: translateY(100%); }
+}
+
+
+
+.container10 {
+    font-weight: bold;
+    color:white;
+    margin-left: 56em;
+    margin-top: -35em;
+    overflow: hidden;
+    animation: child10 linear 17s infinite;
+}
+
+
+@keyframes  child10 {
+    from { -moz-transform: translateY(-100%); }
+    to { -moz-transform: translateY(100%); }
+}
+
+@-webkit-keyframes child10 { 
+    from { -moz-transform: translateY(-100%); }
+    to { -moz-transform: translateY(100%); }
+}
+
+
+

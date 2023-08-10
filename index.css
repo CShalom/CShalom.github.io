@@ -1,0 +1,54 @@
+body {
+    background-image: url("https://cdn.pixabay.com/photo/2017/01/24/03/53/plant-2004483_1280.jpg")
+}
+
+
+
+h1, h2, p {
+    font-family: 'Gloria Hallelujah', cursive;  
+}
+
+
+h1 {
+    text-align: center;
+}
+
+
+
+h2, p {
+    margin-left: 1.3em;
+    margin-right: 21em;
+    margin-top: -0.3em;
+}
+
+    
+
+nav {
+    float: right;
+    position: relative;
+    bottom: 37em;
+    margin-right: 1.5em;
+    background-color: white;
+    border-radius: 2em;
+    padding: 0.5em
+}
+
+
+nav ul li {
+    list-style-type: none;
+    padding: 0.5em;
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 0.5em;
+}
+
+
+#signature {
+   font-size: 2em;
+   margin-top: 1em;
+}

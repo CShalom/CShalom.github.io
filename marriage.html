@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Love and Marriage</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="marriage.css">
+    </head>
+
+  
+
+<body>
+   
+  <nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="marriage.html">Love & Marriage</a></li>
+        <li><a href="animation.html">CSS Animation</a></li>
+        <li><a href="waterfall.html">Waterfall</a></li>
+        <li><a href="timetable.html">Timetable</a></li>  
+    </ul>
+</nav>
+  
+
+  <div><img id="marriageBorder1" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhqR_oGsOxd_oNRypvjgw_4IpwCiCfEJtuWg&usqp=CAU" alt="Marriage border"></div>
+  <div><img id="marriageBorder2" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhqR_oGsOxd_oNRypvjgw_4IpwCiCfEJtuWg&usqp=CAU" alt="Another marriage border"></div>
+    
+  <h1 id="headingTitle">Words of Wisdom: Love & Marriage</h1>
+    
+    <div class="text"></div>
+
+      <p id="para1"> "<strong>A</strong> husband and wife may disagree on many things but they must absolutely agree on this: to never, ever give up.” – <span>Unknown</span></p>
+      <p id="para2">"Never marry the one you can live with, marry the one you cannot live without."—<span>Unknown</span></p>
+      <p id="para3">"A successful marriage requires falling in love many times, always with the same person."– <span>Mignon McLaughlin</span></p>
+      <p id="para4">"A great marriage is not when the ‘perfect couple’ comes together. It is when an imperfect couple learns to enjoy their differences."– <span>Dave Meurer</span></p>
+      <p id="para5">"Marriage is not a noun; it is a verb. It is not something you get. It is something you do. It is the way you love your partner every day."– <span>Barbara De Angelis</span></p>
+      <p id="para6">"Don’t ever stop dating your wife and don’t ever stop flirting with your husband."– <span>Unknown</span></p>
+      <p id="para7"> "A perfect marriage is just two imperfect people who refuse to give up on each other."– <span>Unknown</span></p>
+      <p id="para8">"The highest happiness on earth is marriage."— <span>William Lyon Phelps</span></p>
+      <p id="para9">"A happy marriage is the union of two good forgivers."— <span>Ruth Bell Graham</span></p>
+      <p id="para10">"Being someone’s first love may be great, but to be their last is beyond perfect."—<span>Anonymous</span></p> 
+      <p id="para11">"Love doesn’t make the world go round; love is what makes the ride worthwhile."—<span>Elizabeth Barrett Browning</span></p>
+      <p id="para12">"There are a hundred paths through the world that are easier than loving. But who wants easier?"—<span>Marry Oliver</span></p>
+      <p id="para13">"I love you not only for what you are, but for what I am when I am with you."—<span>Roy Croft</span></p>
+      <p id="para14">"The secret of a happy marriage remains a secret."—<span>Henny Youngman</span></p> 
+      <p id="para15">"You don’t stop loving a person when they’re hurt. You get stronger so they can lean on you." —<span>Kristin Hannahweee</span></p>
+      <p id="para16">"A good marriage is a contest of generosity."—<span>Diane Sawyer</span></p>
+      <p id="para17">"Happy is the man who finds a true friend, and far happier is he who finds that true friend in his wife."—<span>Franz Schubert</span></p>
+
+    </div>
+
+    <div><img id="slideshow" src="https://cdn.futura-sciences.com/cdn-cgi/image/width=1920,quality=50,format=auto/sources/images/Mariage-contrat.jpg" alt="Two wedding rings laid on pink and purple roses"></div>
+    
+
+    <div class="relatedArticles">
+      <p> If you want to gain more wisdom on the topic, have a read on the following articles selected just for you!</p>
+
+        <ul>
+          <li><a href ="https://www.momjunction.com/articles/reasons-why-marriage-is-so-important_00639027/#:~:text=It%20is%20a%20legal%20commitment,into%20marriage%20and%20stay%20together.">Reasons why marriage is so important</a></li>
+          <li><a href ="https://www.betterhelp.com/advice/love/what-is-true-love-and-how-to-know-when-youve-found-it/">What is true love and how to know when you've found it</a></li>
+          <li><a href ="https://www.marriage.com/advice/love/interesting-facts-about-love/">Interesting facts about love</a></li>
+          <li><a href ="https://www.fergusonvalues.com/2012/11/words-of-wisdom-for-married-couples/">Words of wisdom for married couples</a></li>
+        </ul>
+
+    </div>
+      
+ 
+ 
+  
+  <script>
+
+   var myImage =document.getElementById("slideshow");
+
+   var imageArray = [
+                  "https://i.pinimg.com/474x/69/59/b9/6959b9a2fa803f89173b784e8b917e6c.jpg",
+                  "https://i.pinimg.com/474x/8f/c8/f4/8fc8f40e703d871c006f46bcdef251c5.jpg",
+                  "https://i.pinimg.com/564x/93/ab/40/93ab40c0e255df4d025da3ceecc0e07d.jpg",
+                  "https://i.pinimg.com/474x/3c/80/42/3c804238453005d46d2c9b5768172343.jpg",
+                  "https://i.pinimg.com/474x/83/2f/be/832fbe55278aba1704840152edcc606f.jpg",
+                  "https://i.pinimg.com/474x/ee/8b/c1/ee8bc1ac0ff45e1ba8818a5a097a1362.jpg",
+                  "https://i.pinimg.com/474x/23/76/50/2376505aa013af8a8d1f6c84cfb767be.jpg",
+                  "https://i.pinimg.com/564x/89/c9/2c/89c92ca8c83925b1155381eebddfcbd1.jpg"]
+
+   var imageIndex =0 ;
+
+    function changeImage() {
+      myImage.setAttribute ("src", imageArray[imageIndex]) ;
+      imageIndex++ ;
+      if (imageIndex >= imageArray.length) {
+          imageIndex = 0 ;
+    }
+  }
+
+
+   setInterval (changeImage, 10000) ;
+
+
+  </script>
+
+<audio autoplay loop>
+  <source src="https://upload.wikimedia.org/wikipedia/commons/6/62/Pachelbel%27s_Canon.ogg" type="audio/ogg">
+   Your browser does not support the audio tag.
+</audio>
+ 
+</body>
+
+    
+
+
+</html>
